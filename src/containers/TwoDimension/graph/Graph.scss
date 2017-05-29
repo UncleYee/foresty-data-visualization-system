@@ -1,0 +1,45 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+}
+
+.graph {
+  width: 800px;
+  height: 524px;
+}
+
+.selectionContainer {
+  height: 35px;
+  width: 575px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.node {
+  height: 35px;
+  width: 270px;
+  float: left;
+  .nodeNo {
+    font-size: 16px;
+    line-height: 35px;
+    float: left;
+  }
+}
+
+.dateRange {
+  float: left;
+  width: 295px;
+  height: 35px;
+  .time {
+    font-size: 16px;
+    line-height: 35px;
+    float: left;
+  }
+}

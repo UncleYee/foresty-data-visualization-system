@@ -1,0 +1,176 @@
+/**
+ * Override Bootstrap styles that you can't modify via variables here.
+ *
+ */
+ :global {
+    @import "~react-select/dist/react-select.css";
+    @import "~react-daterange-picker/src/css/react-calendar.scss";
+    @import "~rc-time-picker/assets/index.css";
+    // @import "~react-bootstrap-table/dist/react-bootstrap-table.min.css";
+    .Select-control, .is-open .Select-control, .is-focused:not(.is-open) .Select-control{
+      border: 1px solid #e5e5e5;
+      box-shadow: none;
+      &:hover {
+        box-shadow: none;
+      }
+    }
+    .Select-menu-outer{
+      border: 1px solid #e5e5e5;
+      z-index: 3;
+    }
+
+
+    .DateRangePicker__Date {
+      .DateRangePicker__CalendarSelection {
+        background-color: #65B6F7;
+        border: none;
+      }
+      .DateRangePicker__CalendarHighlight {
+        border: none;
+        background-color: #CFE5F7;
+      }
+    }
+
+  *, *.focus, *.active{
+    outline: none;
+  }
+
+   html,body{
+     min-width: 1220px;
+     background-color: #f3f3f3;
+     .table {
+       margin-bottom: 0;
+       thead {
+         tr {
+           height: 45px;
+           margin-bottom: -1px;
+           th {
+             border-bottom: 1px;
+             font-weight: 300;
+             font-size: 12px;
+             padding-left: 15px;
+             line-height: 27px;
+           }
+         }
+       }
+       tbody {
+         tr {
+           td {
+             padding-left: 15px;
+             line-height: 28px;
+             height: 45px;
+           }
+         }
+       }
+     }
+   }
+
+   @media (min-width: 768px) {
+     .modal-dialog.form {
+         width: 680px;
+         margin: 30px auto;
+     }
+   }
+
+
+   .popover {
+     max-width: 800px;
+   }
+
+   .form-control[readonly] {
+    border: none;
+    background: none;
+    resize: none;
+    &:focus {
+      box-shadow: none;
+    }
+   }
+
+   .btn{
+     padding: 6px 15px;
+     height: 35px;
+     border-radius: 4px;
+     font-size: 14px;
+     border: 1px solid #e1e3e6;
+     color: #666;
+     font-weight: 300;
+     &:focus:active, &:active, &:focus{
+        outline: none;
+     }
+     &:hover, &:focus {
+       border: 1px solid #e1e3e6;
+     }
+     &.btn-primary{
+       border: 1px solid #0275d8;
+       color: #fff;
+       background-color: #0275d8;
+       &:hover {
+         background-color: #0f5c9e;
+       }
+       &:focus{
+         background-color: #204d74;
+       }
+     }
+     &.btn-danger{
+       color: #fff;
+     }
+   }
+
+   .control-label{
+     font-weight: 300;
+   }
+   .form-control{
+     border-radius: 4px;
+     border-color: #e5e5e5;
+     box-shadow: none;
+   }
+   .input-group-addon{
+      background: none;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      border-color: #e5e5e5;
+   }
+
+   .modal-content {
+     border-radius: 4px;
+     .modal-header{
+       background-color: #f7f9fa;
+       border-top-left-radius: 4px;
+       border-top-right-radius: 4px;
+       .close {
+        margin-top: -15px;
+        font-size: 45px;
+        font-weight: 100;
+        margin-bottom: -21px;
+       }
+       h4.modal-title {
+         color: #000;
+         font-size: 16px;
+         line-height: 20px;
+         padding-left: 8px;
+         padding-top: 4px;
+         margin-bottom: -3px;
+       }
+     }
+   }
+   .modal-footer {
+     height: 65px;
+     background-color: #f7f9fa;
+     border-bottom-left-radius: 4px;
+     border-bottom-right-radius: 4px;
+     .btn + .btn {
+       margin-left: 10px;
+     }
+   }
+ }
+.navbar-brand {
+  position: relative;
+  padding-left: 50px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #33e0ff;
+  background-color: transparent;
+}

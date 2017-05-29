@@ -1,0 +1,17 @@
+.popover {
+  width: 680px;
+  height: 300px;
+  left: -70px !important;
+  :global {
+    .DateRangePicker {
+      position: relative;
+      width: auto;
+      top: auto;
+      right: auto;
+    }
+  }
+}
+
+.root {
+  position: relative;
+}
