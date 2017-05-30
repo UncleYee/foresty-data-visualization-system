@@ -123,7 +123,7 @@ export default class App extends Component {
 
         <div className="well text-center">
           有疑问? 你可以可以在 <a
-          href="https://github.com/erikras/react-redux-universal-hot-example/issues"
+          href="https://github.com/UncleYee"
           target="_blank">Github</a> 上联系我，或者发送电子邮件到 <a>uncleye159@gmail.com</a> 与我联系。
         </div>
       </div>

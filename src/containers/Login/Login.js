@@ -43,7 +43,7 @@ export default class Login extends Component {
             <button className="btn btn-success" onClick={this.handleSubmit}><i className="fa fa-sign-in"/>{' '}登录
             </button>
           </form>
-          <p>管理员登录系统，对系统数据进行维护。</p>
+          <p>本系统仅做数据展示部分，鉴于未来可能需要增加后台管理功能，因此提前预留本登录界面，相关逻辑及登录接口已经完成。</p>
         </div>
         }
         {user &&

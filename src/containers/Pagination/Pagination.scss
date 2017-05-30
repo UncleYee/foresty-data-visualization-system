@@ -1,3 +1,29 @@
-a {
-  cursor: pointer;
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.selectionContainer {
+  height: 35px;
+  width: 290px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.node {
+  height: 35px;
+  width: 270px;
+  float: left;
+  .nodeNo {
+    font-size: 16px;
+    line-height: 35px;
+    float: left;
+  }
 }
