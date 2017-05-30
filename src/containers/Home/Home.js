@@ -24,7 +24,7 @@ export default class Home extends Component {
             <h2>{config.app.description}</h2>
 
             <p>
-              <a className={styles.github} href="/react"
+              <a className={styles.github} href="https://github.com/UncleYee/foresty-data-visualization-system"
                  target="_blank">
                 <i className="fa fa-github"/> 查看源码
               </a>
